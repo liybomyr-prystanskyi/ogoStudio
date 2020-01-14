@@ -1,0 +1,159 @@
+{
+  "org-header": true,
+  "org-banner": true,
+  "org-portfolio": {
+    "mol-portfolio-item": {
+      "items": [{
+          "padding-bottom-100": "padding-bottom-100",
+          "img": "assets/img/item.png",
+          "alt": "item",
+          "title": "Фітнес-центр",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor viverra maecenas odio",
+          "button": "Переглянути сайт",
+          "arrow": "assets/img/arrow.png",
+          "arrow-alt": "arrow"
+        },
+        {
+          "padding-bottom-100": "padding-bottom-100",
+          "row-reverse-style": "row-reverse-style",
+          "img": "assets/img/item.png",
+          "alt": "item",
+          "title": "Фітнес-центр",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor viverra maecenas odio",
+          "button": "Переглянути сайт",
+          "arrow": "assets/img/arrow.png",
+          "arrow-alt": "arrow"
+        },
+        {
+          "img": "assets/img/item.png",
+          "alt": "item",
+          "title": "Фітнес-центр",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor viverra maecenas odio",
+          "button": "Переглянути сайт",
+          "arrow": "assets/img/arrow.png",
+          "arrow-alt": "arrow"
+        }
+
+      ]
+    }
+  },
+  "org-howitworks": {
+    "mol-howitworks-item": {
+      "items": [{
+          "title": "У будь–який день",
+          "description": "Ви залишаєте заявку. Через деякий час ми з вами зідзвонюємось, або зписуємось. Ви розповідаєте нам про майбутній сайт."
+        },
+        {
+          "title": "Суббота",
+          "description": "Ми починаємо працювати над вашим сайтом. На другий день — орієнтовно у субботу, ми покажемо дві версії дизайну сайту, щоб ви могли собі обрати."
+        },
+        {
+          "title": "Неділя",
+          "description": "Потім обраний дизайн переходить до программіста. Він вже втілить його у життя: зверстає, все підключить, налаштує SEO та підключить хостинг. Хостинг оплачуєте ви."
+        },
+        {
+          "title": "Сайт готовий",
+          "description": "Також ви отримуєте гарантію на 1 рік."
+        }
+      ]
+    }
+  },
+  "org-whywe": {
+    "mol-whywe-item": {
+      "items": [{
+          "image": "assets/img/item1.png",
+          "alt": "item1",
+          "title": "Дизайн",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        },
+        {
+          "image": "assets/img/item2.png",
+          "alt": "item2",
+          "title": "Чистий код",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        },
+        {
+          "image": "assets/img/item3.png",
+          "alt": "item3",
+          "title": "SEO",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        },
+        {
+          "image": "assets/img/item4.jpg",
+          "alt": "item4",
+          "title": "Адаптація",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        },
+        {
+          "image": "assets/img/item4.jpg",
+          "alt": "item5",
+          "title": "Професійність",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        },
+        {
+          "image": "assets/img/item6.png",
+          "alt": "item6 ",
+          "title": "1 рік гарантія",
+          "description": "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit."
+        }
+      ]
+    }
+  },
+  "org-whywe-count": {
+    "mol-whywe-count-item": {
+      "items": [{
+          "title": "4 роки",
+          "description": "середній досвід роботи наших розробників"
+        },
+        {
+          "title": "2 дні",
+          "description": "нам потрібно щоб створити крутий сайт"
+        },
+        {
+          "title": "38 проектів",
+          "description": "зроблено загалом за весь час"
+        },
+        {
+          "title": "2 людини",
+          "description": "працюють над одним сайтом "
+        }
+      ]
+    }
+  },
+  "org-feedback": {
+    "mol-feedback-item": {
+      "feedback-items": [
+        {
+          "image": "assets/img/object.png",
+          "alt": "object",
+          "name": "Юрій Кушнір",
+          "position": "Директор Гаражу",
+          "percent": "46%",
+          "percent-text": "збільшилась кількість клієнтів у Сергія після запуску сайту",
+          "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrices non blandit consequat nec nulla. At est velit, integer praesent at nec . Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrice вцкйцке."
+        },
+        {
+          "image": "assets/img/object.png",
+          "alt": "object",
+          "name": "Юрій Кушнір",
+          "position": "Директор Гаражу",
+          "percent": "46%",
+          "percent-text": "збільшилась кількість клієнтів у Сергія після запуску сайту",
+          "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrices non blandit consequat nec nulla. At est velit, integer praesent at nec . Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrice вцкйцке."
+        },
+        {
+          "image": "assets/img/object.png",
+          "alt": "object",
+          "name": "Юрій Кушнір",
+          "position": "Директор Гаражу",
+          "percent": "46%",
+          "percent-text": "збільшилась кількість клієнтів у Сергія після запуску сайту",
+          "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrices non blandit consequat nec nulla. At est velit, integer praesent at nec . Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrice вцкйцке."
+        }
+      ]
+    }
+  },
+  "org-form":true,
+  "org-tabs":true,
+  "org-footer-main":true
+}

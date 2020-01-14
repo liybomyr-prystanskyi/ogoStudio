@@ -1,0 +1,30 @@
+{{#mol-portfolio-item}}
+  {{#items}}
+<div class="row align-items-center {{{row-reverse-style}}} {{{padding-bottom-100}}}">
+  {{#img}}
+  <div class="col-12 col-lg-7" data-aos="flip-left">
+    <a class="home-portfolio__main__item-img">
+      <img src="{{{img}}}" alt="{{{alt}}}">
+    </a>
+  </div>
+  {{/img}}
+  <div class="col-12 col-lg-5" data-aos="flip-right">
+    <div class="home-portfolio__main__item-info">
+      {{#title}}
+      <h3>{{{title}}}</h3>
+      {{/title}}
+
+      {{#description}}
+      <p>{{{description}}}</p>
+      {{/description}}
+
+      {{#button}}
+      <a href="#">{{{button}}}
+        <img src="{{{arrow}}}" alt="{{{arrow-alt}}}">
+      </a>
+      {{/button}}
+    </div>
+  </div>
+</div>
+  {{/items}}
+{{/mol-portfolio-item}}
