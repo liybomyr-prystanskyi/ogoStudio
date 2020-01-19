@@ -63,10 +63,11 @@
 
 
 	$(".scrollTo").on('click', function (e) {
+		var a = -100;
     e.preventDefault();
     var target = $(this).attr('href');
     $('html, body').animate({
-        scrollTop: ($(target).offset().top)
+        scrollTop: ($(target).offset().top + a) 
     }, 1500);
 	});
 
@@ -98,6 +99,12 @@
 			}, 1);
 		}
 	});
+
+	$('.faq li .question').click(function () {
+		$(this).find('.plus-minus-toggle').toggleClass('collapsed');
+		$(this).parent().toggleClass('active');
+	  });
+	  
 
 })(jQuery);
 

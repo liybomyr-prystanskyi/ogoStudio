@@ -22,6 +22,7 @@
                 "arrow-alt": "arrow"
             },
             {
+                "padding-bottom-165": "padding-bottom-165",
                 "img": "assets/img/item.png",
                 "alt": "item",
                 "title": "Фітнес-центр",
@@ -44,7 +45,8 @@
             },
             {
                 "title": "Неділя",
-                "description": "Потім обраний дизайн переходить до программіста. Він вже втілить його у життя: зверстає, все підключить, налаштує SEO та підключить хостинг. Хостинг оплачуєте ви."
+                "description": "Потім обраний дизайн переходить до программіста. Він вже втілить його у життя: зверстає, все підключить, налаштує SEO та підключить хостинг.",
+                "span":"Хостинг оплачуєте ви."
             },
             {
                 "title": "Сайт готовий",
@@ -112,6 +114,7 @@
     },
     "mol-feedback-item": {
         "feedback-items": [{
+            "margin-bottom-124":"margin-bottom-124",
                 "image": "assets/img/object.png",
                 "alt": "object",
                 "name": "Юрій Кушнір",
@@ -121,6 +124,7 @@
                 "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrices non blandit consequat nec nulla. At est velit, integer praesent at nec . Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrice вцкйцке."
             },
             {
+                "margin-bottom-124":"margin-bottom-124",
                 "image": "assets/img/object.png",
                 "alt": "object",
                 "name": "Юрій Кушнір",
@@ -130,6 +134,7 @@
                 "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrices non blandit consequat nec nulla. At est velit, integer praesent at nec . Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem facilisi volutpat viverra nec eu sagittis, porta enim. At phasellus velit quis fames. Feugiat sit aliquam morbi ultrice вцкйцке."
             },
             {
+                "margin-bottom-124":"margin-bottom-124",
                 "image": "assets/img/object.png",
                 "alt": "object",
                 "name": "Юрій Кушнір",

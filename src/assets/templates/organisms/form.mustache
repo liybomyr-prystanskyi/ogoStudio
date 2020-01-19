@@ -6,10 +6,13 @@
           <h2>Напишіть нам</h2>
           <p>Зазвичай ми відповідаємо впродовж дня.</p>
           <input type="text" placeholder="Ваше Ім'я" id="name">
-          <input type="tel:0931846940" placeholder="Телефон 0931846940" id="phone">
+          <label for="phone">Телефон</label>
+          <input type="tel:0931846940" placeholder="0931846940" id="phone">
+          <label class="mail-label" for="mail">Email</label>
           <input type="mailto:aleksson2@gmail.com" placeholder="aleksson2@gmail.com" id="mail">
-          <input type="text" placeholder="Назва вашої компанії" id="company-name">
-          <input type="text" placeholder="Який це має бути сайт? Для яких цілей?" id="description">
+          <input type="text" placeholder="Назва вашої компанії" id="company-name" required>
+          <label class="description-label" for="description">Який це має бути сайт? Для яких цілей?</label>
+          <input type="text" id="description">
           <input type="submit" value="Відправити" id="submit">
         </form>
       </div>
