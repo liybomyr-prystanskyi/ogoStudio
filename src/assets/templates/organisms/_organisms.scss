@@ -88,7 +88,10 @@ section {
   transition: all .1s ease-in !important;
 }
 
-
+.scroll-on {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+  background-color: #fff !important;
+}
 
 .start-header.scroll-on .navbar-brand img {
   height: auto;
@@ -174,7 +177,7 @@ section {
 
 .nav-link {
   font-weight: 400;
-  transition: all 2s linear;
+  transition: all .2s linear;
   font-family: 'tt-reg';
   color: #000000;
   font-size: 16px;
@@ -260,7 +263,7 @@ section {
     text-decoration: none;
     transition: all .3s ease-in-out;
     font-family: 'tt-reg';
-    font-weight: 700;
+    font-weight: 900;
 
     &:hover {
       background-color: #fff;
@@ -403,14 +406,14 @@ section {
       color: #000000;
       font-family: "tt-reg";
       font-size: 64px;
-      font-weight: 700;
+      font-weight: 900;
       margin: 0 0 20px 0;
 
       span {
         color: #192df5;
         font-family: "tt-reg";
         font-size: 64px;
-        font-weight: 700;
+        font-weight: 900;
         margin: 0;
       }
     }
@@ -447,14 +450,27 @@ section {
         justify-content: center;
         align-items: center;
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.2px;
         line-height: 19.2px;
+        transition: all .3s ease-in-out;
         font-family: "tt-reg";
+        border: 2px solid transparent;
+        &:hover {
+          background-color: #fff;
+          color: #192df5;
+          border: 2px solid #192df5;
+          transition: all .3s ease-in-out;
+        }
 
         &:last-child {
           background-color: transparent;
           color: #192df5;
+          &:hover {
+            color: #192df5;
+            background-color: transparent;
+            border: 2px solid transparent;
+          }
         }
       }
     }
@@ -502,7 +518,7 @@ section {
         color: #000000;
         font-family: "tt-reg";
         font-size: 50px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 60px;
         margin: 0 0 30px 0;
       }
@@ -546,7 +562,7 @@ section {
         color: #000000;
         font-family: "tt-reg";
         font-size: 22px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.5px;
         line-height: 26.4px;
         margin-bottom: 16px;
@@ -566,7 +582,7 @@ section {
         color: #192df5;
         font-family: "tt-reg";
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.2px;
         line-height: 19.2px;
         display: flex;
@@ -631,7 +647,7 @@ section {
         color: #ffffff;
         font-family: "tt-reg";
         font-size: 50px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 60px;
         margin: 0 0 64px 0;
       }
@@ -660,7 +676,7 @@ section {
         color: #ffffff;
         font-family: "tt-reg";
         font-size: 22px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.5px;
         line-height: 120%;
         margin-bottom: 8px;
@@ -704,7 +720,7 @@ section {
         padding: 10px;
         font-family: "tt-reg";
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 900;
         color: #fff;
         max-width: 180px;
         text-decoration: none;
@@ -762,7 +778,7 @@ section {
         color: #000;
         font-family: "tt-reg";
         font-size: 50px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 60px;
         margin: 0;
       }
@@ -800,7 +816,7 @@ section {
         color: #000000;
         font-family: "tt-reg";
         font-size: 22px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.5px;
         line-height: 26.4px;
         margin: 0 0 16px 0;
@@ -831,7 +847,7 @@ section {
         display: block;
         border: 2px solid #192df5;
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 0.2px;
         line-height: 19.2px;
         margin: 0 auto;
@@ -883,7 +899,7 @@ section {
         color: #000000;
         font-family: "tt-reg";
         font-size: 34px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 40.8px;
         margin: 0 0 8px 0;
       }
@@ -923,7 +939,7 @@ section {
         color: #000;
         font-family: "tt-reg";
         font-size: 50px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 60px;
         margin: 0;
       }
@@ -966,7 +982,7 @@ section {
               color: #000000;
               font-family: "tt-reg";
               font-size: 22px;
-              font-weight: 700;
+              font-weight: 900;
               letter-spacing: 0.5px;
               line-height: 26.4px;
               margin: 0 0 8px 0;
@@ -1009,15 +1025,13 @@ section {
       align-items: flex-start;
       padding: 30px;
       flex-direction: column;
-      top: 0;
-      margin-left: auto;
-      margin-right: 0;
+      top: 15px;
 
       h3 {
         color: #000000;
         font-family: "tt-reg";
         font-size: 34px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 40.8px;
         margin: 0;
       }
@@ -1063,7 +1077,7 @@ section {
         color: #000000;
         font-family: "tt-reg";
         font-size: 64px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 70.4px;
         margin: 0 0 20px 0;
         text-align: center;
@@ -1167,7 +1181,7 @@ label.mail-label {
       color: #ffffff;
       font-family: "tt-reg";
       font-size: 50px;
-      font-weight: 700;
+      font-weight: 900;
       line-height: 60px;
       margin: 0 0 89px 0;
     }
@@ -1177,7 +1191,7 @@ label.mail-label {
     color: #ffffff;
     font-family: "tt-reg";
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 0.5px;
     line-height: 26.4px;
     text-decoration: none;
@@ -1303,6 +1317,7 @@ label.mail-label {
 
       a {
         margin-right: 30px;
+        text-decoration: none;
 
         &:last-child {
           margin-right: 0;
@@ -1319,6 +1334,7 @@ label.mail-label {
 
 
 @media screen and (max-width:768px) {
+
   .nav-item {
     margin-left:  0 !important;
   }
@@ -1333,12 +1349,17 @@ label.mail-label {
   .banner {
     margin-top: 0;
     margin-bottom: 30px;
+    height: 100vh;
+    min-height: 0;
+    
 
     &:after {
       content: url("../img/banner-bg.png");
-      top: -100%;
+      top: -120%;
       max-height: initial;
-      right: -25%;
+      right: 0%;
+      width: 100%;
+      height: auto;
     }
 
     &__info {
@@ -1364,7 +1385,7 @@ label.mail-label {
           margin-bottom: 15px;
 
           &:last-child {
-            background-color: #fff;
+            background-color:transparent;
             color: #192df5;
             margin-bottom: 0;
           }
@@ -1373,14 +1394,15 @@ label.mail-label {
     }
 
     &__image {
-      width: 100%;
-      margin-top: 40px;
+      // width: 100%;
+      // margin-top: 40px;
+      display: none;
 
-      img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-      }
+      // img {
+      //   width: 100%;
+      //   height: auto;
+      //   object-fit: cover;
+      // }
     }
   }
 
@@ -1407,8 +1429,8 @@ label.mail-label {
 
         &:before {
           content: url(../img/portfolio-after.png);
-          left: 78%;
-          top: -70%;
+          left: 50%;
+          top: -10%;
         }
       }
 
@@ -1547,6 +1569,7 @@ label.mail-label {
 
         p {
           font-size: 16px;
+          margin: 0 auto !important;
 
           &:last-child {
             margin: 0;
@@ -1555,7 +1578,12 @@ label.mail-label {
       }
     }
   }
-
+.faq .answer {
+  font-size: 14px;
+}
+.faq .question {
+  font-size: 16px;
+}
   .feedback {
     &__main {
       &__title {
@@ -1600,8 +1628,8 @@ label.mail-label {
 
       &__percent {
         padding: 15px;
-        min-height: 130px;
-        margin-bottom: 40px;
+        min-height: auto;
+        margin-bottom: 0;
 
         h3 {
           font-size: 25px;
@@ -1614,7 +1642,9 @@ label.mail-label {
     }
   }
 
-
+.margin-bottom-124 {
+  margin-bottom: 50px;
+}
   .form-block {
     margin-top: 0;
 
@@ -1674,16 +1704,19 @@ label.mail-label {
     min-height: 50px;
     margin: 10px auto 0;
   }
+  .padding-bottom-165 {
+    padding-bottom: 40px;
+  }
 
   .main-tabs {
     padding: 30px 0;
 
     &__title {
       h2 {
-        font-size: 30px;
         line-height: 40px;
         margin: 0 0 30px 0;
         text-align: center;
+        font-size: 22px;
       }
     }
 
@@ -2747,7 +2780,7 @@ label.mail-label {
     color: #ffffff;
     font-family: "tt-reg";
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 0.5px;
     line-height: 26.4px;
     transition: color 0.5s ease;
