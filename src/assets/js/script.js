@@ -104,7 +104,11 @@
 		$(this).find('.plus-minus-toggle').toggleClass('collapsed');
 		$(this).parent().toggleClass('active');
 	  });
-	  
+	
+
+	$('.navbar-toggler').on('click', function(){
+		$('.navigation-wrap').toggleClass('white-bg-active');
+	});
 
 })(jQuery);
 
