@@ -1,7 +1,20 @@
 /* Variables */
 $fontPath: '../fonts/';
 
-/* TTNORMS REGULAR */
+//BOLD
+@font-face {
+  font-family: 'tt-bold';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/TTNorms-Bold.eot'); /* IE9 Compat Modes */
+  src: local('TTNorms-Bold'), local('TTNorms-Bold'),
+       url('#{$fontPath}/TTNorms-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/TTNorms-Bold.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/TTNorms-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+//Regular
 @font-face {
   font-family: 'tt-reg';
   font-style: normal;
@@ -11,4 +24,16 @@ $fontPath: '../fonts/';
        url('#{$fontPath}/TTNorms-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('#{$fontPath}/TTNorms-Regular.woff') format('woff'), /* Modern Browsers */
        url('#{$fontPath}/TTNorms-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+//Medium
+@font-face {
+  font-family: 'tt-med';
+  font-style: normal;
+  font-weight: 100;
+  src: url('#{$fontPath}/TTNorms-Medium.eot'); /* IE9 Compat Modes */
+  src: local('TTNorms-Medium'), local('TTNorms-Medium'),
+       url('#{$fontPath}/TTNorms-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/TTNorms-Medium.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/TTNorms-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
 }

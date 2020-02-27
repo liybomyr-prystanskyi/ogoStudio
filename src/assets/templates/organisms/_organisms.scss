@@ -125,6 +125,9 @@ section {
   display: block;
   transition: all 0.3s ease-out;
 }
+.navbar-brand {
+  margin-top: 4px;
+}
 
 .navbar-toggler {
   float: right;
@@ -310,7 +313,7 @@ section {
 
       h2 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 50px;
         font-weight: 900;
         line-height: 60px;
@@ -324,26 +327,32 @@ section {
       position: relative;
       min-height: 440px;
       display: block;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02), 0 100px 120px rgba(0, 0, 0, 0.05);
+      text-decoration: none;
+      // box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02), 0 100px 120px rgba(0, 0, 0, 0.05);
 
       &:before {
-        content: url(../img/portfolio-after.png);
+        content: "";
         width: 100%;
         height: auto;
         position: absolute;
         display: block;
-        left: -11%;
-        top: -20%;
+        left: 7%;
+        top: -16%;
         z-index: -1;
-        width: 615px;
-        height: 654px;
+        width: 700px;
+        height: 461px;
+        background-image: url(../img/portfolio-after.png);
+        background-repeat: no-repeat;
+        background-size: contain;
       }
 
       img {
-        width: 100%;
-        height: auto;
-        max-height: 440px;
-        object-fit: contain;
+        // width: 100%;
+        // height: auto;
+        // max-height: 440px;
+        object-fit: cover;
+        width: 700px;
+        height: 460px;
       }
     }
 
@@ -354,12 +363,12 @@ section {
 
       h3 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 22px;
         font-weight: 900;
         letter-spacing: 0.5px;
-        line-height: 26.4px;
         margin-bottom: 16px;
+        line-height: 120%;
       }
 
       p {
@@ -374,7 +383,7 @@ section {
 
       a {
         color: #192df5;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 16px;
         font-weight: 900;
         letter-spacing: 0.2px;
@@ -440,7 +449,7 @@ section {
 
       h2 {
         color: #ffffff;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 50px;
         font-weight: 900;
         line-height: 60px;
@@ -469,7 +478,7 @@ section {
 
       h3 {
         color: #ffffff;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 22px;
         font-weight: 900;
         letter-spacing: 0.5px;
@@ -513,7 +522,7 @@ section {
         position: relative;
         transition: 0.3s;
         padding: 10px;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 16px;
         font-weight: 900;
         color: #fff;
@@ -571,7 +580,7 @@ section {
 
       h2 {
         color: #000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 50px;
         font-weight: 900;
         line-height: 60px;
@@ -580,7 +589,7 @@ section {
 
       p {
         color: #757575;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 34px;
         font-weight: 500;
         line-height: 49.3px;
@@ -609,7 +618,7 @@ section {
 
       h3 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 22px;
         font-weight: 900;
         letter-spacing: 0.5px;
@@ -647,7 +656,7 @@ section {
         line-height: 19.2px;
         margin: 0 auto;
         padding: 0;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         border-radius: 50px;
         max-width: 260px;
         min-height: 60px;
@@ -692,7 +701,7 @@ section {
 
       h2 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 34px;
         font-weight: 900;
         line-height: 40.8px;
@@ -732,7 +741,7 @@ section {
 
       h2 {
         color: #000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 50px;
         font-weight: 900;
         line-height: 60px;
@@ -775,7 +784,7 @@ section {
 
             h3 {
               color: #000000;
-              font-family: "tt-reg";
+              font-family: "tt-bold";
               font-size: 22px;
               font-weight: 900;
               letter-spacing: 0.5px;
@@ -811,7 +820,7 @@ section {
       width: 100%;
       height: auto;
       position: relative;
-      max-width: 360px;
+      max-width: 100%;
       min-height: 153px;
       border-radius: 8px;
       background-color: #f2f7fc;
@@ -824,7 +833,7 @@ section {
 
       h3 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 34px;
         font-weight: 900;
         line-height: 40.8px;
@@ -870,7 +879,7 @@ section {
 
       h2 {
         color: #000000;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         font-size: 64px;
         font-weight: 900;
         line-height: 70.4px;
@@ -942,6 +951,7 @@ label.mail-label {
   display: block;
   margin: 30px auto 0;
   padding: 0;
+  font-family: "tt-bold";
 
   &:hover {
     transition: all .3s ease-in-out;
@@ -974,7 +984,7 @@ label.mail-label {
 
     h2 {
       color: #ffffff;
-      font-family: "tt-reg";
+      font-family: "tt-bold";
       font-size: 50px;
       font-weight: 900;
       line-height: 60px;
@@ -1131,7 +1141,6 @@ label.mail-label {
 }
 
 
-
 .parent-container {
   width: 100%;
 }
@@ -1223,7 +1232,7 @@ label.mail-label {
 
 .white-bg-active {
   background-color: #fff !important;
-  padding-top: 28px;
+
 }
 
 .banner {
@@ -1257,7 +1266,7 @@ label.mail-label {
 
     h1 {
       color: #000000;
-      font-family: "tt-reg";
+      font-family: "tt-bold";
       font-size: 64px;
       font-weight: 900;
       margin: 0 0 20px 0;
@@ -1307,7 +1316,7 @@ label.mail-label {
         letter-spacing: 0.2px;
         line-height: 19.2px;
         transition: all .3s ease-in-out;
-        font-family: "tt-reg";
+        font-family: "tt-bold";
         border: 2px solid transparent;
         &:hover {
           background-color: #fff;
@@ -1347,8 +1356,11 @@ label.mail-label {
 }
 
 @media screen and (max-width:768px) {
+  .collapse.show {
+    height: 100vh;
+  }
   .navbar {
-    padding: 28px 0 0 0;
+    padding: 0 0 0 0;
   }
   .mobile-flex-banner {
     flex-direction: column-reverse;
@@ -1359,7 +1371,7 @@ label.mail-label {
 
   .header-social {
     display: block;
-    margin-bottom: 38px;
+    margin-bottom: 0;
 
     a {
       text-decoration: none;
@@ -1437,12 +1449,14 @@ label.mail-label {
 
   .navigation-wrap {
     display: block;
+    padding: 12px 0 0 0;
+    min-height: 72px;
   }
 
   .banner {
     min-height: auto;
     margin-top: 0;
-    padding-top: 85px;
+    padding-top: 72px;
     margin-bottom: 40px;
   
     &:after {
@@ -1567,7 +1581,7 @@ label.mail-label {
   
         h3 {
           color: #000000;
-          font-family: "tt-reg";
+          font-family: "tt-med";
           font-size: 22px;
           font-weight: 900;
           letter-spacing: 0.5px;
@@ -1626,6 +1640,7 @@ label.mail-label {
           font-size: 22px;
           line-height: 120%;
           margin-bottom: 8px;
+          font-family: "tt-med";
         }
   
         p {
@@ -1683,6 +1698,7 @@ label.mail-label {
         p {
           font-size: 22px;
           line-height: 120%;
+          font-family: "tt-med";
         }
       }
   
@@ -1704,6 +1720,7 @@ label.mail-label {
         h3 {
           font-size: 22px;
           line-height: 120%;
+          font-family: "tt-med";
         }
   
         p {
@@ -1736,6 +1753,7 @@ label.mail-label {
           font-size: 22px;
           line-height: 120%;
           margin-bottom: 4px;
+          font-family: "tt-med";
         }
   
         p {
@@ -1776,6 +1794,7 @@ label.mail-label {
                 font-size: 22px;
                 line-height: 120%;
                 margin-bottom: 8px;
+                font-family: "tt-med";
               }
   
               p {
@@ -1804,6 +1823,7 @@ label.mail-label {
           font-size: 34px;
           line-height: 120%;
           margin-bottom: 4px;
+          font-family: "tt-med";
         }
   
         p {
@@ -1840,6 +1860,7 @@ label.mail-label {
           letter-spacing: -0.2px;
           font-feature-settings: 'liga' off;
           color: #757575;
+          font-family: "tt-med";
           margin: 0 0 40px 0;
         }
   
@@ -1937,6 +1958,7 @@ label.mail-label {
   
     .question {
       margin-bottom: 16px;
+      font-family: "tt-med";
     }
   }
 
@@ -2013,20 +2035,48 @@ label.mail-label {
 }
 
 @media screen and (min-width:768.99px) and (max-width:992px) {
+  .hide-block {
+    display: none;
+  }
+  .navbar-light .navbar-toggler-icon:after, .navbar-light .navbar-toggler-icon:before {
+    width: 22px;
+    position: absolute;
+    height: 3px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    width: 22px;
+    border-bottom: 3px solid #000;
+  }
+  .navbar-light .navbar-toggler-icon:after {
+    top: 7px;
+  }
+
+  .mobile-flex-banner {
+    flex-direction: column-reverse;
+  }
   .banner {
-    margin-top: 90px;
-    margin-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 62px;
+    padding-top: 21px;
 
     &:after {
-      content: url("../img/banner-bg.png");
-      top: -100%;
+      content: "";
+      width: 787px;
+    height: 737px;
+    top: -110px;
       max-height: initial;
-      right: -25%;
+      right: -42px;
+      background-image: url(../img/banner-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     &__info {
+      width: 541px;
+      margin: 0 auto;
+      text-align: center;
       h1 {
-        font-size: 40px;
+        font-size: 50px;
 
         span {
           font-size: 40px;
@@ -2035,13 +2085,19 @@ label.mail-label {
 
       p {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
       }
 
       &__buttons {
+        flex-direction: column;
         a {
           min-height: 45px;
           font-size: 14px;
+          max-width: 320px;
+          min-height: 60px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          line-height: 120%;
 
           &:last-child {
             background-color: #fff;
@@ -2054,17 +2110,26 @@ label.mail-label {
 
     &__image {
       width: 100%;
-      margin-top: 40px;
+      margin-top: 100px;
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 0;
 
       img {
-        width: 100%;
-        height: auto;
         object-fit: cover;
+        left: -15px;
+        width: 696px;
+        height: 420px;
+        position: relative;
       }
     }
   }
 
+  .padding-bottom-165 {
+    padding-bottom: 0;
+  }
   .home-portfolio {
     margin-top: 60px;
     padding-bottom: 24px;
@@ -2078,18 +2143,32 @@ label.mail-label {
 
 
         h2 {
-          font-size: 30px;
+          font-size: 50px;
         }
       }
 
       &__item-img {
         min-height: auto;
         margin-bottom: 30px;
+        width: auto;
+        height: 291px;
 
         &:before {
-          content: url(../img/portfolio-after.png);
-          left: 98%;
-          top: -25%;
+          position: absolute;
+          display: block;
+          left: 5%;
+          top: -10%;
+          z-index: -1;
+          width: 330px;
+          height: 337px;
+          background-image: url(../img/portfolio-after.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+ 
+        }
+        img {
+          width: 100%;
+          height: 291px;
         }
       }
 
@@ -2117,19 +2196,20 @@ label.mail-label {
   }
 
   .padding-bottom-100 {
-    padding-bottom: 50px;
+    padding-bottom: 68px;
   }
 
   .hiw {
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 30px;
-    padding: 30px 0;
+    padding: 88px 0 40px 0;
 
     &__main {
       &__title {
         h2 {
-          font-size: 30px;
-          margin: 0 0 25px 0;
+          font-size: 50px;
+          line-height: 120%;
+          margin: 0 0 40px 0;
         }
       }
 
@@ -2141,41 +2221,47 @@ label.mail-label {
         }
 
         h3 {
-          font-size: 18px;
+          font-size: 22px;
+          line-height: 120%;
+          margin-bottom: 8px;
         }
 
         p {
-          font-size: 14px;
+          font-size: 16px;
+          line-height: 120%;
+          margin-bottom: 16px;
         }
       }
 
       &__button {
+        margin-top: 48px;
         a {
-          margin: 10px auto 0;
+          margin: 0 auto 0;
         }
       }
     }
   }
 
-
   .whywe {
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 72px;
 
     &__main {
       &__title {
-        margin-bottom: 40px;
+        margin-bottom: 64px;
 
         h2 {
-          font-size: 30px;
-          line-height: 40px;
+          font-size: 50px;
+          line-height: 120%;
           text-align: center;
         }
 
         p {
-          font-size: 18px;
+          font-size: 34px;
+          line-height: 145%;
           line-height: 24.3px;
           text-align: center;
+          font-family: "tt-med";
         }
       }
 
@@ -2192,11 +2278,14 @@ label.mail-label {
         }
 
         h3 {
-          font-size: 18px;
+          font-size: 22px;
+          line-height: 120%;
+          margin-bottom: 8px;
         }
 
         p {
-          font-size: 14px;
+          font-size: 18px;
+          line-height: 155%;
         }
       }
 
@@ -2212,22 +2301,26 @@ label.mail-label {
 
   .whywe-count {
     margin-top: 60px;
-    margin-bottom: 30px;
-    padding: 20px 0;
+    margin-bottom: 72px;
+    padding: 36px 0;
 
     &__main {
       &__item {
+margin-bottom: 0;
+
         padding: 10px 0;
         text-align: center;
 
         h2 {
-          font-size: 20px;
-          line-height: 30.8px;
+          font-size: 22px;
+          line-height: 120%;
           margin: 0 0 5px 0;
         }
 
         p {
-          font-size: 16px;
+          font-size: 18px;
+          line-height: 155%;
+          margin: 0;
 
           &:last-child {
             margin: 0;
@@ -2238,6 +2331,7 @@ label.mail-label {
   }
 
   .feedback {
+    margin-bottom: 10px;
     &__main {
       &__title {
         margin-bottom: 50px;
@@ -2259,21 +2353,21 @@ label.mail-label {
 
             &__position {
               h3 {
-                font-size: 18px;
-                line-height: 22.4px;
+                font-size: 22px;
+                line-height: 120%;
               }
 
               p {
                 font-size: 16px;
-                line-height: 20.9px;
+                line-height: 120%;
                 margin: 0;
               }
             }
           }
 
           p {
-            font-size: 16px;
-            line-height: 25.9px;
+            font-size: 18px;
+            line-height: 155%;
             margin: 0;
           }
         }
@@ -2282,47 +2376,52 @@ label.mail-label {
       &__percent {
         padding: 15px;
         min-height: 130px;
-        margin-bottom: 40px;
+        margin-bottom: 0;
 
         h3 {
-          font-size: 25px;
+          font-size: 34px;
+          line-height: 120%;
         }
 
         p {
-          font-size: 16px;
+          font-size: 18px;
+          line-height: 155%;
         }
       }
     }
   }
-
+  .margin-bottom-124 {
+    margin-bottom: 61px;
+  }
 
   .form-block {
     margin-top: 0;
 
     &__main {
-      padding-bottom: 50px;
+      padding-bottom: 70px;
 
       &__form {
-        padding: 15px;
+        padding: 34px;
         min-height: auto;
+        max-width: 538px;
 
         h2 {
-          font-size: 30px;
-          line-height: 40px;
-          margin: 0;
+          font-size: 64px;
+          line-height: 110%;
+          margin: 0 0 8px 0;
           text-align: center;
         }
 
         p {
-          font-size: 16px;
-          line-height: 20.9px;
-          margin-bottom: 20px;
+          font-size: 18px;
+          line-height: 155%;
+          margin-bottom: 54px;
         }
 
         input {
           padding: 10px;
           outline: none;
-          margin-bottom: 15px;
+          margin-bottom: 36px;
           font-size: 14px;
         }
       }
@@ -2351,20 +2450,22 @@ label.mail-label {
   }
 
   #submit {
-    max-width: 200px;
-    min-height: 50px;
-    margin: 10px auto 0;
+    max-width: 210px;
+    min-height: 60px;
+    margin: 25px auto 0;
+    font-size: 16px;
+line-height: 120%;
   }
 
   .main-tabs {
-    padding: 30px 0;
+    padding: 56px 0 40px 0;
 
     &__title {
       h2 {
-        font-size: 30px;
-        line-height: 40px;
-        margin: 0 0 30px 0;
-        text-align: center;
+        font-size: 50px;
+        line-height: 120%;
+        margin: 0 0 40px 0;
+        text-align: left;
       }
     }
 
@@ -2389,12 +2490,18 @@ label.mail-label {
     }
   }
 
+  .faq li {
+    margin-bottom: 30px;
+  }
+  .faq .question {
+    margin-bottom: 23px;
+  }
   .footer {
-    padding: 30px 0;
+    padding: 56px 0 40px 0;
 
     &__main {
       &__logo {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         text-align: center;
       }
 
@@ -2412,7 +2519,7 @@ label.mail-label {
         ul {
           align-items: center;
           justify-content: center;
-          flex-direction: row;
+          flex-direction: column;
 
           li {
             width: 100%;
@@ -2420,7 +2527,7 @@ label.mail-label {
             position: relative;
             text-align: center;
             max-width: 100%;
-            margin-bottom: 10px;
+            margin-bottom: 32px;
 
             &:last-of-type {
               margin-bottom: 0;
@@ -2442,9 +2549,10 @@ label.mail-label {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 10px;
 
         a {
-          margin-right: 20px;
+          margin-right: 30px;
 
           &:last-child {
             margin-right: 0;
@@ -2857,7 +2965,7 @@ label.mail-label {
   }
 
   .home-portfolio__main__item-img:before {
-    top: -15%;
+    top: -16%;
   }
 }
 

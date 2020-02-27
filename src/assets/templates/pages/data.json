@@ -123,6 +123,7 @@
               "description":"зроблено загалом за весь час"
           },
           {
+            "hide-block":"hide-block",
               "title":"2 людини",
               "description":"працюють над одним сайтом "
           }
